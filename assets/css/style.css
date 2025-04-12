@@ -681,6 +681,52 @@ textarea {
 }
 
 
+
+
+.projects-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.projects-section h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.projects-section h2 span {
+  color: #00bfff;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.project-card {
+  
+  border-radius: 16px;
+  padding: 20px;
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
